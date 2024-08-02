@@ -5,12 +5,17 @@ This project aims to classify news articles as real or fake using Machine Learni
 **Dataset**
 The dataset consists of news articles with the following columns:
 
+Dataset
+The dataset consists of news articles with the following columns:
+
 Column	Description
 id	Unique ID for a news article
 title	Title of the news article
 author	Author of the news article
 text	Text of the article (may be incomplete)
 label	Label indicating whether the news article is real or fake: <br> 1: Fake news <br> 0: Real news
+
+
 Dependencies
 
 The following Python libraries are required for this project:
