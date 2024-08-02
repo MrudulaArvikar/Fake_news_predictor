@@ -5,15 +5,19 @@ This project aims to classify news articles as real or fake using Machine Learni
 **Dataset**
 The dataset consists of news articles with the following columns:
 
-Dataset
+
+## Dataset Description
+
 The dataset consists of news articles with the following columns:
 
-Column	Description
-id	Unique ID for a news article
-title	Title of the news article
-author	Author of the news article
-text	Text of the article (may be incomplete)
-label	Label indicating whether the news article is real or fake: <br> 1: Fake news <br> 0: Real news
+| Column | Description |
+|--------|-------------|
+| `id` | Unique ID for a news article |
+| `title` | Title of the news article |
+| `author` | Author of the news article |
+| `text` | Text of the article (may be incomplete) |
+| `label` | Label indicating whether the news article is real or fake: <br> 1: Fake news <br> 0: Real news |
+
 
 
 Dependencies
@@ -38,10 +42,12 @@ Run the Script
 
 Execute the script to preprocess the data, train the model, and evaluate its performance.
 
-**Results:**
-Accuracy Score: Shows the percentage of correctly classified articles.
-Confusion Matrix: Visual representation of true vs. predicted labels.
-Classification Report: Includes precision, recall, and F1-score metrics.
+## Results
+
+- **Accuracy Score**: Shows the percentage of correctly classified articles.
+- **Confusion Matrix**: Visual representation of true vs. predicted labels.
+- **Classification Report**: Includes precision, recall, and F1-score metrics.
+
 .
 **License**
 This project is licensed under the Apache License 2.0. See the LICENSE file for more details.
